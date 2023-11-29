@@ -7,8 +7,12 @@ max-width width width
     box-sizing: border-box;
     }
     img {
+    display: block;
     max-width: 100%;
-    height: auto;      
+    margin: 0 auto;
+    height: auto;   
+    scroll-snap-type: x mandatory;
+      
     }
     .carrousel_parent-ecrans {
     display: flex;
@@ -83,4 +87,7 @@ justify-content list-style margin none padding
     color: #fff;
     /* couleur du fond */
     background: #000;
+  }
+  h1 {
+    text-align: center;
   }
