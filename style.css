@@ -5,6 +5,7 @@ max-width width width
 */ 
 * {
     box-sizing: border-box;
+    text-align: center;
     }
     img {
     display: block;
@@ -12,6 +13,7 @@ max-width width width
     margin: 0 auto;
     height: auto;   
     }
+
     .carrousel_parent-ecrans {
     display: flex;
     width: 100%;
@@ -79,13 +81,11 @@ justify-content list-style margin none padding
     list-style: none;
     /* espace entre les enfants */
     gap: 1rem;
+    margin-top: 40px;
   }
   .actif {
     /* couleur du texte */
     color: #fff;
     /* couleur du fond */
     background: #000;
-  }
-  h1 {
-    text-align: center;
   }
