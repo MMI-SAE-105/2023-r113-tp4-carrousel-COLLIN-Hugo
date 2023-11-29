@@ -27,6 +27,8 @@ max-width width width
     width: 100%;
       /* permet de garder toute la largeur du parent */
     flex: none;
+    /* aligne les enfants par blocs */
+    scroll-snap-align: start;
     }
     .carrousel_ecran figure {
         margin: 0;
