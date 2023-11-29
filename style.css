@@ -1,0 +1,27 @@
+/* en vrac :
+100% 100% 100% 0 auto border-box box-sizing 
+display height flex flex none margin 
+max-width width width
+*/ 
+* {
+    box-sizing: border-box;
+    }
+    img {
+    max-width: 100%;
+    height: auto;      
+    }
+    .carrousel_parent-ecrans {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+    }
+    .carrousel_ecran {
+      /* largeur du parent pour chaque enfant */
+    max-width: 100%;
+      /* permet de garder toute la largeur du parent */
+    width: 100%;
+    }
+    .carrousel_ecran figure {
+        margin: 0;
+    }
