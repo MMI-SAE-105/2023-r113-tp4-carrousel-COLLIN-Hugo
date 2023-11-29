@@ -12,6 +12,8 @@ max-width width width
     max-width: 100%;
     margin: 0 auto;
     height: auto;   
+    border-radius: 5%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     }
 
     .carrousel_parent-ecrans {
@@ -87,5 +89,10 @@ justify-content list-style margin none padding
     /* couleur du texte */
     color: #fff;
     /* couleur du fond */
-    background: #ccc;
+    background: pink;
   }
+body {
+  background-color:blue;
+  color: violet;
+  font-family: Arial, Helvetica, sans-serif;
+}
