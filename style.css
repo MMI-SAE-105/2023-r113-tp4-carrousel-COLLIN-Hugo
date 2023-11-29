@@ -78,3 +78,9 @@ justify-content list-style margin none padding
     /* espace entre les enfants */
     gap: 1rem;
   }
+  .actif {
+    /* couleur du texte */
+    color: #fff;
+    /* couleur du fond */
+    background: #000;
+  }
