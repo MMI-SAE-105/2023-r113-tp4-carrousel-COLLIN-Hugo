@@ -24,9 +24,9 @@ max-width width width
     }
     .carrousel_ecran {
       /* largeur du parent pour chaque enfant */
-    max-width: 100%;
-      /* permet de garder toute la largeur du parent */
     width: 100%;
+      /* permet de garder toute la largeur du parent */
+    flex: none;
     }
     .carrousel_ecran figure {
         margin: 0;
