@@ -14,6 +14,8 @@ max-width width width
     display: flex;
     justify-content: center;
     width: 100%;
+    /* permet de scroller horizontalement */
+    overflow-x: scroll;
     
     }
     .carrousel_ecran {
@@ -25,3 +27,4 @@ max-width width width
     .carrousel_ecran figure {
         margin: 0;
     }
+  
