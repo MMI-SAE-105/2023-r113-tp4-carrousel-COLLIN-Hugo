@@ -9,7 +9,8 @@ max-width width width
     }
     img {
     display: block;
-    max-width: 100%;
+    width: 700px;
+    height: 1000px;
     margin: 0 auto;
     height: auto;   
     border-radius: 5%;
@@ -84,6 +85,7 @@ justify-content list-style margin none padding
     /* espace entre les enfants */
     gap: 1rem;
     margin-top: 40px;
+  
   }
   .actif {
     /* couleur du texte */
@@ -95,4 +97,11 @@ body {
   background-color:blue;
   color: violet;
   font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 48px;
+
 }
