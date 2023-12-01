@@ -2,13 +2,15 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carroussel</title>
+    <title>Les animaux de la nature</title>
     <script src="//unpkg.com/alpinejs" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Carroussel</h1>
+<section>
+<h1>Les animaux de la nature</h1>
     <div class="carrousel" x-data="{hrefCourant: '#ecran-1',}">
         <button class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant" @click="parent = $refs.parent; parent.scrollLeft -= parent.clientWidth">
             &lt;
@@ -62,5 +64,38 @@
             <button><li><a href="#ecran-5" class="caroussel_lien" :class="{actif:hrefCourant==='#ecran-5'}"><h3>La tortue</h3></a></li></button>
         </ul>
     </div>
+</section>
+<section>
+    <h1>Les animaux de compagnie</h1>
+    <ul x-data="{estOuvert:1}" id="accordeon">
+        <li :class="{actif:estOuvert === 1}" @click="estOuvert = (estOuvert === 1)?0:1">
+          <figure>
+            <img src="https://picsum.photos/100?random=1" alt="" width="102">
+            <figcaption>
+              <h3>Lorem, ipsum dolor.</h3>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li :class="{actif:estOuvert === 2}" @click="estOuvert = (estOuvert === 2)?0:2">
+          <figure>
+            <img src="https://picsum.photos/100?random=2" alt="" width="102">
+            <figcaption>
+              <h3>Commodi, necessitatibus quasi.</h3>
+              <p>Sequi quisquam quos eaque qui. Debitis.</p>
+            </figcaption>
+          </figure>
+        </li>
+        <li :class="{actif:estOuvert === 3}" @click="estOuvert = (estOuvert === 3)?0:3">
+          <figure>
+            <img src="https://picsum.photos/100?random=3" alt="" width="102">
+            <figcaption>
+              <h3>Distinctio, ullam asperiores.</h3>
+              <p>Quo hic impedit quasi fugit ea.</p>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+</section>
 </body>
 </html>
