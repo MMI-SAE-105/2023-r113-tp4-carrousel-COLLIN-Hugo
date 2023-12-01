@@ -40,12 +40,12 @@
         width: 2rem;
         height: 2rem;
         background: rgba(0,0,0,0.5);
-        border-radius: 50%;
+        border-radius: 100%;
         border: none;
         display: grid;
         place-content: center;
         color: #fff;
-        padding: 6px 17px;
+        padding: 5px 17px;
 
       }
       
@@ -68,7 +68,7 @@
     text-decoration: none;
 
   }
-  button {
+  button.lien {
     background-color: #004466;
     border: none;
     color: white;
@@ -128,6 +128,7 @@ h3 {
   margin: 3px;
   padding : 5px;
   border-radius: 5px;
+  cursor: pointer;
 }
 #accordeon li.actif {
   width: 417px;
