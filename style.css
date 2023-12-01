@@ -99,16 +99,19 @@ a{
   color: #559e97;
   text-decoration: none;
 }
+
 #accordeon {
   display: flex;
   margin: 0;
   padding: 0;
+  justify-content: center;
 }
 #accordeon li {
   width: 107px;
   overflow: hidden;
   transition: width 1s;
-  background-color: #eee;
+  color: #fff;
+  background-color: #004466;
   list-style: none;
   margin: 3px;
   padding : 5px;
