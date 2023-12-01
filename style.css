@@ -154,3 +154,7 @@ h3 {
   margin: 0;
   padding: 0;
 }
+img.icon {
+  width: 34px;
+  height: 34px;
+}
