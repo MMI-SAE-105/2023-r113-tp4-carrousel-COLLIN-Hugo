@@ -75,7 +75,6 @@
             <img src="/Assets/Img/cats3.jpeg" alt="cats" width="102">
             <figcaption>
               <h2>Le chat<img src="/Assets/Icones/cats.svg" alt="cats icon" class="icon"></h2>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
             </figcaption>
           </figure>
         </li>
@@ -84,7 +83,6 @@
             <img src="/Assets/Img/dog2.jpeg" alt="dog" width="102">
             <figcaption>
               <h2>Le chien<img src="/Assets/Icones/dog.svg" alt="dog icon" class="icon"></h2>
-              <p>Sequi quisquam quos eaque qui. Debitis.</p>
             </figcaption>
           </figure>
         </li>
@@ -93,7 +91,6 @@
             <img src="/Assets/Img/Hamster 2.jpeg" alt="hamster" width="102">
             <figcaption>
               <h2>Le hamster<img src="/Assets/Icones/Hamster.svg" alt="hamster icon" class="icon"></h2>
-              <p>Quo hic impedit quasi fugit ea.</p>
             </figcaption>
           </figure>
         </li>
@@ -102,7 +99,22 @@
               <img src="/Assets/Img/lapin.jpeg" alt="rabbit" width="102">
               <figcaption>
                 <h2>Le lapin<img src="/Assets/Icones/lapin.svg" alt="rabbit icon" class="icon"></h2>
-                <p>Quo hic impedit quasi fugit ea.</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li :class="{actif:estOuvert === 5}" @click="estOuvert = (estOuvert === 5)?0:5">
+            <figure>
+              <img src="/Assets/Img/fish3.jpeg" alt="fish" width="102">
+              <figcaption>
+                <h2>Le poisson<img src="/Assets/Icones/fish.svg" alt="fish icon" class="icon"></h2>
+              </figcaption>
+            </figure>
+          </li>
+          <li :class="{actif:estOuvert === 6}" @click="estOuvert = (estOuvert === 6)?0:6">
+            <figure>
+              <img src="/Assets/Img/Chèvre2.jpeg" alt="goat" width="102">
+              <figcaption>
+                <h2>La chèvre<img src="/Assets/Icones/Goat.svg" alt="goat icon" class="icon"></h2>
               </figcaption>
             </figure>
           </li>
